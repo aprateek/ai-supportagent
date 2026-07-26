@@ -1,0 +1,65 @@
+[
+  {
+    "id": "PROD-001",
+    "name": "Wireless Noise-Cancelling Headphones",
+    "category": "Electronics",
+    "price": 149.99,
+    "description": "Premium over-ear headphones with active noise cancellation and 30-hour battery life.",
+    "in_stock": true,
+    "rating": 4.6
+  },
+  {
+    "id": "PROD-002",
+    "name": "Men's Classic Fit Cotton T-Shirt",
+    "category": "Clothing",
+    "price": 24.99,
+    "description": "Soft 100% organic cotton crew-neck tee available in 8 colors.",
+    "in_stock": true,
+    "rating": 4.3
+  },
+  {
+    "id": "PROD-003",
+    "name": "Stainless Steel French Press",
+    "category": "Home",
+    "price": 34.99,
+    "description": "Double-wall insulated French press that keeps coffee hot for up to 2 hours.",
+    "in_stock": true,
+    "rating": 4.7
+  },
+  {
+    "id": "PROD-004",
+    "name": "USB-C Laptop Docking Station",
+    "category": "Electronics",
+    "price": 89.99,
+    "description": "12-in-1 docking station with dual HDMI, Ethernet, and 100W passthrough charging.",
+    "in_stock": false,
+    "rating": 4.4
+  },
+  {
+    "id": "PROD-005",
+    "name": "Women's Waterproof Hiking Jacket",
+    "category": "Clothing",
+    "price": 119.99,
+    "description": "Lightweight breathable rain jacket with sealed seams and adjustable hood.",
+    "in_stock": true,
+    "rating": 4.8
+  },
+  {
+    "id": "PROD-006",
+    "name": "Bamboo Desk Organizer Set",
+    "category": "Home",
+    "price": 29.99,
+    "description": "5-piece desk organizer made from sustainable bamboo.",
+    "in_stock": true,
+    "rating": 4.2
+  },
+  {
+    "id": "PROD-007",
+    "name": "Smart LED Desk Lamp",
+    "category": "Electronics",
+    "price": 59.99,
+    "description": "Touch-controlled LED lamp with 5 brightness levels and USB charging port.",
+    "in_stock": true,
+    "rating": 4.5
+  }
+]
