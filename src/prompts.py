@@ -8,7 +8,7 @@ from pathlib import Path
 from typing import Optional
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from src.phase1_basic_llm import call_llm_with_system
+from src.llm_client import call_llm_with_system
 
 # ── Valid intents ────────────────────────────────
 VALID_INTENTS = [
