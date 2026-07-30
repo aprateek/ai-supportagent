@@ -1,4 +1,4 @@
-"""Phase 1 tests: verify LLM calling patterns work correctly with mocked Bedrock."""
+"""Tests: Verify LLM calling patterns work correctly with mocked Bedrock."""
 
 import json
 import sys
@@ -17,7 +17,7 @@ class TestBasicResponse:
         mock_bedrock_client.invoke_model.return_value = mock_bedrock_response(
             "I can help you with your order. Please provide your order number."
         )
-        from src.phase1_basic_llm import call_llm
+        from src.llm_client import call_llm
         result = call_llm("Where is my order?")
         assert result
         assert isinstance(result, str)
@@ -27,7 +27,7 @@ class TestBasicResponse:
         mock_bedrock_client.invoke_model.return_value = mock_bedrock_response(
             "I understand you're concerned about your order status. Let me help you track it."
         )
-        from src.phase1_basic_llm import call_llm
+        from src.llm_client import call_llm
         result = call_llm("My order hasn't arrived yet")
         assert "order" in result.lower()
 
@@ -52,7 +52,7 @@ class TestSystemPrompt:
         mock_bedrock_client.invoke_model.return_value = mock_bedrock_response(
             "I'd be happy to help with your return! Our policy allows returns within 30 days."
         )
-        from src.phase1_basic_llm import call_llm_with_system
+        from src.llm_client import call_llm_with_system
         result = call_llm_with_system(
             "You are ShopSmart's support agent.",
             "I want to return my shoes."
