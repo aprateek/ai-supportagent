@@ -9,7 +9,7 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from src.phase2_prompts import (
+from src.prompts import (
     SYSTEM_PROMPT,
     FEW_SHOT_EXAMPLES,
     VALID_INTENTS,
