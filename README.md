@@ -44,10 +44,10 @@ cp .env.example .env
 # Edit .env with your AWS profile/region
 
 # 4. Run Phase 1
-python src/phase1_basic_llm.py
+python src/llm_client.py
 
 # 5. Run Phase 2
-python src/phase2_prompts.py
+python src/prompts.py
 
 # 6. Run Phase 3
 python src/rag/pipeline.py
@@ -63,8 +63,8 @@ supportagent/
 ├── config/
 │   └── settings.py              ← Centralized config (env-driven)
 ├── src/
-│   ├── phase1_basic_llm.py      ← Phase 1: 3 LLM calling patterns
-│   ├── phase2_prompts.py        ← Phase 2: Structured JSON + parser
+│   ├── llm_client.py      ← Phase 1: 3 LLM calling patterns
+│   ├── prompts.py        ← Phase 2: Structured JSON + parser
 │   └── rag/
 │       ├── chunking.py          ← 3 chunking strategies
 │       ├── embeddings.py        ← Titan Embed v2 wrapper
