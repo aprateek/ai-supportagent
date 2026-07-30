@@ -151,7 +151,7 @@ class TestRAGPipeline:
             })),
         ]
         from src.rag.pipeline import RAGPipeline
-        from src.phase2_prompts import SupportResponse
+        from src.prompts import SupportResponse
         pipeline = RAGPipeline()
         pipeline.ingest_text("Next-day shipping is $24.99.", source="shipping_policy.md")
         result = pipeline.query("How much is next-day shipping?")
