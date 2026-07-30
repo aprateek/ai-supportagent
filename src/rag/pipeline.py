@@ -9,8 +9,8 @@ import numpy as np
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
-from src.phase1_basic_llm import call_llm_with_system
-from src.phase2_prompts import SYSTEM_PROMPT, FEW_SHOT_EXAMPLES, OutputParser, SupportResponse
+from src.llm_client import call_llm_with_system
+from src.prompts import SYSTEM_PROMPT, FEW_SHOT_EXAMPLES, OutputParser, SupportResponse
 from src.rag.chunking import Chunk, ChunkingStrategy
 from src.rag.embeddings import EmbeddingModel
 from src.rag.vector_store import VectorStore
