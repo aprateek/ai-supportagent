@@ -39,7 +39,7 @@ class TestStreaming:
         mock_bedrock_client.invoke_model_with_response_stream.return_value = mock_streaming_response(
             ["Here are ", "3 tips: ", "1. Compare prices. ", "2. Read reviews. ", "3. Check return policy."]
         )
-        from src.phase1_basic_llm import call_llm_streaming
+        from src.llm_client import call_llm_streaming
         result = call_llm_streaming("List 3 shopping tips")
         assert "tips" in result.lower() or "Compare" in result
         assert len(result) > 20
