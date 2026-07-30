@@ -1,4 +1,4 @@
-"""Phase 3 tests: verify RAG pipeline — chunking, embeddings, vector store, end-to-end."""
+"""Tests: verify RAG pipeline — chunking, embeddings, vector store, end-to-end."""
 
 import json
 import sys
