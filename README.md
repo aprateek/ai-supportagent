@@ -31,7 +31,7 @@ This repo accompanies the **"Building an AI Agent System from Zero to Production
 
 ```bash
 # 1. Clone & setup
-git clone https://github.com/ag-prateek/supportagent.git
+git clone https://github.com/ag-prateek/ai-supportagent.git
 cd supportagent
 python -m venv .venv
 source .venv/bin/activate
