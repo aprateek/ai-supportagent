@@ -32,7 +32,7 @@ This repo accompanies the **"Building an AI Agent System from Zero to Production
 ```bash
 # 1. Clone & setup
 git clone https://github.com/ag-prateek/ai-supportagent.git
-cd supportagent
+cd ai-supportagent
 python -m venv .venv
 source .venv/bin/activate
 
@@ -56,7 +56,7 @@ python src/rag/pipeline.py
 ## 📁 Project Structure
 
 ```
-supportagent/
+ai-supportagent/
 ├── README.md
 ├── requirements.txt
 ├── .env.example
