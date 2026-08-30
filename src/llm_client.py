@@ -11,7 +11,7 @@ from config.settings import AWS_REGION, MAX_TOKENS, MODEL_ID, TEMPERATURE
 
 
 def _get_client():
-    return boto3.client("bedrock-runtime-test", region_name=AWS_REGION)
+    return boto3.client("bedrock-runtime", region_name=AWS_REGION)
 
 
 def call_llm(
