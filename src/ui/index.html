@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SupportAgent - Chat Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="chat-header">
+            <h1>🤖 SupportAgent</h1>
+            <p>AI-powered customer support</p>
+        </div>
+
+        <div id="chat-messages" class="chat-messages"></div>
+
+        <div class="chat-input-area">
+            <textarea
+                id="message-input"
+                class="message-input"
+                placeholder="Type your question..."
+                rows="3"
+            ></textarea>
+            <button id="send-btn" class="send-btn">Send</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
